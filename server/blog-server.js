@@ -83,7 +83,7 @@ app.post('/v1/api/posts', (req, res) => {
         title,
         content
     } = req.body;
-console.log(req.body);
+    console.log(req);
     if (!title || !content) {
         res.status(400).json({
             error: 'Title and content are required'
