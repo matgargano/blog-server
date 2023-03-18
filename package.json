@@ -1,0 +1,16 @@
+{
+  "name": "csc436-blog-server",
+  "version": "1.0.0",
+  "description": "CSC436 blog server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node blog-server.js"
+  },
+  "author": "Mat Gargano",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
